@@ -1,16 +1,20 @@
-function duplicateCode(text) {
-   let arr = text.split('').sort();
+function uniqueWord(text) {
+   let arr = [];
+   let i = 0;
+   let word = text[i];
 
-   for (let i = 0; i < arr.length; i++) {
-         if (arr[i] == arr[i + 1]) {
-            console.log(')');
-      } else {
-         console.log('(')
-      }
-   
+for (let i = 0; i < text.length; i++) {
+   switch(word) {
+       case text[i]: arr.push(')');
+       break;
+
+       default:
+           arr.push('(');
    }
-   
+}
+lastArray = arr.join('');
+console.log(lastArray);
 }
 
-duplicateCode('mama');
+uniqueWord('222111222');
 
