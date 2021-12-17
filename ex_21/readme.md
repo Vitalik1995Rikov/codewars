@@ -3,4 +3,5 @@
 Пример: friend(['Ryan', 'Kieran']) // 'Ryan'
 
 ## Ход решения:
-1. 
+1. method forEach 
+2. condition if (length == 4)
