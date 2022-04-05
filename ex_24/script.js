@@ -17,6 +17,5 @@ function binarySearch(arr, item) {
   return null;
 }
 
-let array = [0, 1, 3, 4, 7, 9, 12, 14, 17, 18, 20];
-
-console.log(binarySearch(array, 1));
+let array = [0, 1, 4, 7, 9, 10, 13, 15, 17, 20];
+console.log(binarySearch(array, 21));
